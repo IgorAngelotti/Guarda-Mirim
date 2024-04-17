@@ -49,20 +49,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-main.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: #131745;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
+
