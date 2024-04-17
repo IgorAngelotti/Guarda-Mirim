@@ -1,3 +1,7 @@
+.section-header a{
+    font-size: 1.2em;
+}
+
 .container{
     max-width: 1000px;
     margin: 20px auto 40px auto;
@@ -7,28 +11,32 @@
 section{
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 20px;
 }
 
-h1{
+
+.container h1{
     font-size: 2.5em;
     margin-bottom: 30px;
 }
 
-h2{
+.container h2{
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
- p{
+.juramento{
+    margin-bottom: 20px;
+}
+
+.container p{
     font-size: 1.2em;
 }
 
-section ul{
+.container section ul{
     padding-left: 20px;
 }
 
-article{
+.container article{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -36,7 +44,24 @@ article{
 }
 
 @media only screen and (max-width: 600px) {
-    article{
+    .section-header h1{
+        font-size: 2em;
+    }
+
+    .section-header a{
+        font-size: 1.1em;
+    }
+    
+    .container h1{
+        font-size: 2em;
+    }
+
+    .container article{
+        margin-top: 20px;
         grid-template-columns: 1fr ;
+    }
+
+    .juramento{
+        display: none;
     }
 }

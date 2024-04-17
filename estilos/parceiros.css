@@ -38,8 +38,14 @@
 
 @media only screen and (max-width: 600px){
     .section-header h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
+
+    .section-header a{
+        font-size: 1.1em;
+    }
+    
+
     .grid-contatos{
         grid-template-columns: 1fr;
     }
