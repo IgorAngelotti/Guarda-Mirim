@@ -24,9 +24,6 @@ section{
     margin-bottom: 5px;
 }
 
-.juramento{
-    margin-bottom: 20px;
-}
 
 .container p{
     font-size: 1.2em;
@@ -45,12 +42,13 @@ section{
 
 @media only screen and (max-width: 600px) {
     .section-header h1{
-        font-size: 2em;
+        display: none;
     }
 
     .section-header a{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
+
     
     .container h1{
         font-size: 2em;
@@ -61,7 +59,4 @@ section{
         grid-template-columns: 1fr ;
     }
 
-    .juramento{
-        display: none;
-    }
 }

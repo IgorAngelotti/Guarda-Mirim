@@ -37,15 +37,16 @@ header {
 }
 
 header img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
     list-style-type: none;
+    gap: 5px;
     margin: 0;
     padding: 0;
 }
@@ -76,3 +77,15 @@ footer {
     padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .section-header h1{
+        display: none;
+    }
+
+    header img{
+        width: 120px;
+        height: 120px;
+    }
+
+
+}
